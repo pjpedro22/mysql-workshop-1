@@ -1,0 +1,5 @@
+-- 1st Statement used
+DROP DATABASE decodemtl_test;
+
+-- 1st Statement result
+Query OK, 0 rows affected (0.06 sec)

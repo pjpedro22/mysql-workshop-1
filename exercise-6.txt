@@ -1,0 +1,13 @@
+-- 1st Statement used
+DROP TABLE Test;
+
+-- 1st Statement result
+Query OK, 0 rows affected (0.01 sec)
++---------------------------------+
+| Tables_in_decodemtl_addressbook |
++---------------------------------+
+| Account                         |
+| AddressBook                     |
+| Entry                           |
++---------------------------------+
+3 rows in set (0.00 sec)

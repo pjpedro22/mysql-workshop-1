@@ -1,0 +1,11 @@
+-- 1st Statement used
+create database decodemtl_test;
+
+-- 1st Statement result
+Query OK, 1 row affected (0.01 sec)
+
+-- 2nd Statement used
+create database decodemtl_addressbook;
+
+-- 2nd Statement result
+Query OK, 1 row affected (0.01 sec)

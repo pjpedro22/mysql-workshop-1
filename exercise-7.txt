@@ -1,0 +1,12 @@
+-- 1st Statement used
+SHOW TABLES;
+
+-- 1st Statement result
++---------------------------------+
+| Tables_in_decodemtl_addressbook |
++---------------------------------+
+| Account                         |
+| AddressBook                     |
+| Entry                           |
++---------------------------------+
+3 rows in set (0.00 sec)

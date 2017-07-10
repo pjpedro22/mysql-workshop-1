@@ -1,0 +1,15 @@
+-- 1st Statement used
+SHOW databases;
+
+-- 1st Statement result
++-----------------------+
+| Database              |
++-----------------------+
+| information_schema    |
+| c9                    |
+| decodemtl_addressbook |
+| mysql                 |
+| performance_schema    |
+| phpmyadmin            |
++-----------------------+
+6 rows in set (0.01 sec)

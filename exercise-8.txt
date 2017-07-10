@@ -1,0 +1,27 @@
+-- 1st Statement used
+TRUNCATE TABLE Account;
+
+-- 1st Statement result
+Query OK, 0 rows affected (0.01 sec)
+
+-- 2nd Statement use
+ CREATE TABLE Account (
+    ->     id INT AUTO_INCREMENT PRIMARY KEY,
+    ->     email VARCHAR(255),
+    ->     password VARCHAR(40),
+    ->     createdOn DATETIME,
+    ->     modifiedOn DATETIME
+    -> );
+    
+
+    
+ALTER TABLE AddressBook
+    -> ADD accountId INT,
+    -> ADD FOREIGN KEY (accountID) REFERENCES Account(id),
+    -> ADD name VARCHAR(255),
+    -> ADD createdOn DATETIME,
+    -> ADD modifiedOn DATETIME;
+
+-- 2nd Statement result
+Query OK, 0 rows affected (0.01 sec)
+Query OK, 0 rows affected (0.05 sec)

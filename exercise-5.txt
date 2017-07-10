@@ -1,0 +1,24 @@
+-- 1st Statement used
+CREATE TABLE Account ( 
+    -> id INT AUTO_INCREMENT PRIMARY KEY );
+
+-- 1st Statement result
+Query OK, 0 rows affected (0.01 sec)
+
+-- 2nd Statement used
+CREATE TABLE AddressBook (id INT AUTO_INCREMENT PRIMARY KEY);
+
+-- 2nd Statement result
+Query OK, 0 rows affected (0.02 sec)
+
+-- 3rd Statement used
+CREATE TABLE Entry (id INT AUTO_INCREMENT PRIMARY KEY);
+
+-- 3rd Statement result
+Query OK, 0 rows affected (0.02 sec)
+
+-- 4th Statement used
+CREATE TABLE Test(id INT AUTO_INCREMENT PRIMARY KEY);
+
+-- 4th Statement result
+Query OK, 0 rows affected (0.03 sec)

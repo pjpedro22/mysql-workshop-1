@@ -1,0 +1,20 @@
+-- How many rooster, hen and chicks existed in the barn on a specific date
+SELECT animalType FROM ChickensBarn WHERE birthDate = '2017-01-01';
+
++------------+
+| animalType |
++------------+
+| chick      |
+| chick      |
++------------+
+2 rows in set (0.00 sec)
+
+--How many chicks will come to age on a specific date
+SELECT COUNT(birthDate) FROM ChickensBarn WHERE birthDate > '2017-11-03';
+
++------------------+
+| COUNT(birthDate) |
++------------------+
+|                0 |
++------------------+
+1 row in set (0.00 sec)
